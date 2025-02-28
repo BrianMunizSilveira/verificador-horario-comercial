@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verificador de Horário Comercial</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Verificador de Horário Comercial</h1>
+            <p>Saiba se estamos atendendo agora</p>
+        </header>
+
+        <div class="status-card">
+            <div class="clock" id="relogio">Carregando...</div>
+            <div class="status" id="status">Verificando status...</div>
+        </div>
+
+        <div class="info">
+            <h3>Horários de Funcionamento</h3>
+            <p>Segunda a Sexta: 07:00 às 18:00</p>
+            <p>Sábados, Domingos e Feriados: Fechado</p>
+        </div>
+
+        <div class="feriados">
+            <h3>Feriados de 2025</h3>
+            <ul class="feriado-list" id="lista-feriados">
+                <!-- Lista de feriados será inserida pelo JavaScript -->
+            </ul>
+        </div>
+
+        <div class="footer">
+            <p>MIT License | 2025 - Verificador de Horário Comercial</p>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
